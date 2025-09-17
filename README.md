@@ -49,6 +49,8 @@ Execute o menu principal:
 python smart_home/cli/menu.py
 
 Exemplo de Uso
+```bash
+
 **** SMART HOME HUB ****
 1 - Listar dispositivos
 2 - Mostrar dispositivo
@@ -63,7 +65,10 @@ Exemplo de Uso
 11 - Criar rotina
 12 - Exportar eventos para CSV
 
+```
+
 Estrutura do Projeto
+```
 smart_home/
 │
 ├── cli/              # Interface do menu em linha de comando
@@ -71,6 +76,8 @@ smart_home/
 ├── config/           # Arquivos de configuração JSON
 ├── data/             # Relatórios e CSVs gerados
 └── hub/              # Lógica do hub principal
+
+```
 
 Autor
 
