@@ -71,12 +71,49 @@ Estrutura do Projeto
 ```
 smart_home/
 │
-├── cli/              # Interface do menu em linha de comando
-├── core/             # Classes principais dos dispositivos
-├── config/           # Arquivos de configuração JSON
-├── data/             # Relatórios e CSVs gerados
-└── hub/              # Lógica do hub principal
-
+├── cli/ # Interface do menu em linha de comando
+│ └── menu.py
+│
+├── config/ # Arquivos de configuração
+│ ├── config_exemplo.json
+│ └── rotinas.json
+│
+├── core/ # Classes principais dos dispositivos
+│ ├── cafeteira.py
+│ ├── dispositivo_base.py
+│ ├── luz.py
+│ ├── persiana.py
+│ ├── porta.py
+│ ├── sensor.py
+│ └── tomada.py
+│
+├── data/ # Relatórios e eventos gerados
+│ ├── consumo_tomada.csv
+│ ├── eventos.json
+│ ├── eventos_tomadas.csv
+│ ├── relatorio_tomada.csv
+│ └── tomada_casa.csv
+│
+├── hub/ # Núcleo do sistema (lógica do hub)
+│ ├── init.py
+│ ├── automacao.py
+│ ├── consumo_tomada.py
+│ ├── eventos.py
+│ ├── observer.py
+│ ├── singleton.py
+│ └── state_machine.py
+│
+├── tests/ # Testes automatizados
+│ ├── init.py
+│ └── test_dispositivos.py
+│
+├── utils/ # Funções auxiliares
+│ ├── init.py
+│ └── helpers.py
+│
+├── img/ # Imagens para documentação
+│
+├── main.py # Ponto inicial alternativo
 ```
 
 Autor
