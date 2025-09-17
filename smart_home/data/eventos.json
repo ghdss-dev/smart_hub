@@ -1,0 +1,12 @@
+[
+    {
+        "id_dispositivo": "tomada_casa",
+        "evento": "ligar",
+        "timestamp": "N/A"
+    },
+    {
+        "id_dispositivo": "tomada_casa",
+        "evento": "ligar",
+        "timestamp": "N/A"
+    }
+]

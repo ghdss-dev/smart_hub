@@ -1,0 +1,21 @@
+{
+    "ligar_tomada": {
+        "nome": "Ligar Tomada",
+        "acoes": [
+            {
+                "id_dispositivo": "tomada_casa",
+                "comando": "ligar"
+            }
+        ]
+    },
+    "desligar_tomada": {
+        "id": "desligar_tomada",
+        "nome": "Desligar Tomada",
+        "acoes": [
+            {
+                "id_dispositivo": "tomada_casa",
+                "comando": "desligar"
+            }
+        ]
+    }
+}
